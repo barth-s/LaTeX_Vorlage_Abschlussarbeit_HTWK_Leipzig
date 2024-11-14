@@ -57,3 +57,9 @@ https://de.overleaf.com/latex/templates/thesis-template-for-hochschule-fur-techn
 Linda Vogel & Jon Arnt Kårstad
 
 https://www.overleaf.com/latex/templates/template-projekt-htwk/mphqwccfvvwy
+
+Benutzung des aktualisierten "acronym" Paketes von Tobias Oetiker als "acronym_update.sty" um Kompatibilität sicherzustellen
+
+Lizenz des Paketes: "The LaTeX Project Public License 1.3"
+
+https://ctan.org/pkg/acronym
