@@ -14,7 +14,7 @@ Es besteht kein Anspruch auf Richtigkeit.
 
 - Abbildungs- und Tabellenverzeichnis
 
-- Optionale Formel- und Abkürzungsverzeichnisse
+- Optionale Formel- und Abkürzungsverzeichnisse -> Die Hyperlinks funktionieren aktuell noch nicht
 
 - Anhang mit Anhangsverzeichnis
 
@@ -26,7 +26,7 @@ Es besteht kein Anspruch auf Richtigkeit.
 
 ## Nutzung
   
-- In der Repository fehlt der leere Ordner "Inhalte" für Bilder und PDFs
+- In der Repository ein Ordner für Abbildungen -> Dieser muss eigenhändig erstellt werden
 
 - Download der Vorlage bei Overleaf empfohlen: https://de.overleaf.com/latex/templates/abschlussarbeit-htwk-leipzig/mypsvphxmtsk
 
