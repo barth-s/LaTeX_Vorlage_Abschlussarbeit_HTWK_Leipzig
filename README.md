@@ -14,7 +14,7 @@ Es besteht kein Anspruch auf Richtigkeit.
 
 - Abbildungs- und Tabellenverzeichnis
 
-- Optionale Formel- und Abkürzungsverzeichnisse -> Die Hyperlinks funktionieren aktuell noch nicht
+- Optionale Formel- und Abkürzungsverzeichnisse -> Mit Verlinkung aus dem Text
 
 - Anhang mit Anhangsverzeichnis
 
