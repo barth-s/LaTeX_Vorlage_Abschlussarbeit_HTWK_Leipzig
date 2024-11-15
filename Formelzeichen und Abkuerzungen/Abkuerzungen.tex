@@ -9,20 +9,16 @@
 % Es muss immer mindestens ein Eintrag aus dem Verzeichnis im Text aufgerufen werden!
 % ggf. mit Label-Prefixen arbeiten (z.B.: \abk{ak:ASTM})
 %
-% Konfiguration %
-
-\newcommand{\abk}[3]{\acro{#1}[{#2}]{#3}}
-
 \tocless\addchap{Abkürzungsverzeichnis}
-
+%
 %%%%%%%%%%Verzeichnis%%%%%%%%%%%%%
-
+%
 \begin{acronym}[LONGESTLONGEST]
 	%\abb{Label}{Abkürzung}{Langfassung}
 	\abk{astm}{ASTM}{American Society for Testing and Materials}
 \end{acronym}
-
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%
 % Aufruf des Kürzels im Text mit \acs{Label}
 % Aufruf der Langfassung im Text mit \acl{Label}
