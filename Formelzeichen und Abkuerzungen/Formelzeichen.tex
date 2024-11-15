@@ -7,29 +7,18 @@
 % Es muss immer mindestens ein Eintrag aus dem Verzeichnis im Text aufgerufen werden!
 % ggf. mit Label-Prefixen arbeiten (z.B.: \form{fz:obfl})
 %
-% Konfiguration %
-
-\newcommand{\form}[4]{\acro{#1}[\ensuremath{#2}]{#4{\acroextra{\hspace{5em}[#3]}}}}
-
-\renewcommand*{\aclabelfont}[1]{\textbf{\boldmath\acsfont{#1}}}
-
 \tocless\addchap{Formelverzeichnis}
-
-\newcommand{\acls}[1]{\acl{#1} \acs{#1}}
-
+%
 %%%%%%%%%%Verzeichnis%%%%%%%%%%%%%
 %
-
 \begin{acronym}[LONGEST]
 	%\form{Label}{Formelzeichen}{Einheit}{Beschreibung}
 	\form{obfl}{A}{\si{\m^2}}{Oberfläche}
     \form{vol}{V}{\si{\m^3}}{Volumen}
 \end{acronym}
-
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
+%
 % Aufruf des Formelzeichens im Text mit \acs{Label}
 % Aufruf der Beschreibung im Text mit \acl{Label}
 % Aufruf von Beschreibung+Formelzeichen mit \acls{Label}
