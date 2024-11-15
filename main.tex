@@ -84,8 +84,16 @@ numbers=noenddot]
 \usepackage{amsmath}
 \usepackage{graphicx}
 
-% Vorbereitung der Verzeichnisse %
+% Formel- und Abkürzungsverzeichnis%
 \usepackage[noforwardlinks,printonlyused]{Konfigurationsdateien/acronym_update}
+
+% Konfiguration Abkürzungsverzeichnis %
+\newcommand{\abk}[3]{\acro{#1}[{#2}]{#3}}
+
+% Konfiguration Formelverzeichnis %
+\newcommand{\form}[4]{\acro{#1}[\ensuremath{#2}]{#4{\acroextra{\hspace{5em}[#3]}}}}
+\renewcommand*{\aclabelfont}[1]{\textbf{\boldmath\acsfont{#1}}}
+\newcommand{\acls}[1]{\acl{#1} \acs{#1}}
 
 % Hyperref %
 \usepackage{hyperref}
