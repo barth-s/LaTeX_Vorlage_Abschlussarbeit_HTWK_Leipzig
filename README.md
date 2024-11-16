@@ -24,11 +24,9 @@ Es besteht kein Anspruch auf Richtigkeit.
 
 - Kein Zeilenumbruch in den Literaturreferenzen
 
-## Nutzung
+## Hinweis
   
 - Ordner für Abbildungen, PDFs etc. müssen eigenhändig erstellt werden da die Repository keine leeren Ordner enthalten kann !
-
-- Download der Vorlage bei Overleaf empfohlen: https://de.overleaf.com/latex/templates/abschlussarbeit-htwk-leipzig/mypsvphxmtsk
 
 ## Einrichtung
 
