@@ -71,7 +71,11 @@ numbers=noenddot]
 
 \usepackage[labelfont={bf,sf},font={bf}, labelsep=space, singlelinecheck=off]{caption} 
 
-\captionsetup[figure]{justification=Centering}
+\DeclareCaptionFormat{center}{
+    \centering #1#2\minipage[t]{\dimexpr0.7\linewidth}\raggedright #3\endminipage
+}
+
+\captionsetup[figure]{width=0.7\linewidth, format=center}
 \captionsetup[table]{justification=raggedright}
 
 
@@ -168,6 +172,10 @@ font=\LARGE]{chapter}
 
 %Kein Einzug nach Absatz
 \setlength\parindent{0pt}
+
+%Schriftgröße in Tabellen gleich der Schriftgröße im Dokument
+\usepackage{etoolbox}
+\AtBeginEnvironment{table}{\sffamily}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
