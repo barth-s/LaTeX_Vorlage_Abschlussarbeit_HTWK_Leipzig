@@ -14,7 +14,7 @@ Falls jemand die Vorlage weiterentwickeln möchte hier ein Paar abschließende G
 
 - Optimierung des Codes in der main.tex -> Können Pakete wie "geometry" auch mit den KOMA Options ersetzt werden?
 
-- Neue Implementierung der Formel- und Abkürzungsverzeichnisse mit dem glossaries-Paket
+- Neue Implementierung der Formel- und Abkürzungsverzeichnisse mit dem "glossaries" Paket
 
 ## Auszug der Funktionen
 
