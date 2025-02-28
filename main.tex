@@ -163,6 +163,22 @@ font=\LARGE]{chapter}
 %Kein Einzug nach Absatz
 \setlength\parindent{0pt}
 
+%Prüfen ob Datei leer ist
+\newread\testfile
+\newcount\fileisnonempty
+\makeatletter
+\newcommand{\checkemptyfile}[1]{%
+    \openin\testfile=#1
+    \fileisnonempty=0
+    \read\testfile to \dummyline
+    \ifeof\testfile
+    \else
+        \fileisnonempty=1
+    \fi
+    \closein\testfile
+}
+\makeatother
+
 %-------------------------------------------------
 %	Beginn des Dokuments und Einbinden der Kapitel
 %-------------------------------------------------
@@ -211,8 +227,13 @@ font=\LARGE]{chapter}
 \begin{singlespacing}
 \printbibliography
 \end{singlespacing}
+% Prüfe ob Anhang leer ist
+\checkemptyfile{Anhang.tex}
 
-\appendix %Entfernen/Auskommentieren um Anhang zu deaktivieren
-\input{Anhang} %Entfernen/Auskommentieren um Anhang zu deaktivieren
+% Hänge Anhang nur ein, wenn er Text enthält
+\ifnum\fileisnonempty=1
+    \appendix
+    \input{Anhang}
+\fi
 
 \end{document}
